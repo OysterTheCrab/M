@@ -1,0 +1,2 @@
+tag @s add Class6
+tellraw @a[tag=Class6] ["",{"text":"You are the "},{"text":"accomplice","color":"red"},{"text":" you win with the killer\n"},{"text":"click here","underlined":true,"clickEvent":{"action":"run_command","value":"/function mm:classes/accomplice/kitget"}},{"text":" to get your kit"}]

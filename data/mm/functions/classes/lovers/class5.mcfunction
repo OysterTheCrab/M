@@ -1,0 +1,2 @@
+tag @s add Class5
+tellraw @a[tag=Class5] ["",{"text":"You are a "},{"text":"lover ","color":"light_purple"},{"text":"to win you need to catch the killer and keep your other lover alive.\n"},{"text":"click here","underlined":true,"clickEvent":{"action":"run_command","value":"/function mm:classes/lovers/kitget"}},{"text":" to get your kit\nYour other lover is "},{"selector":"@a[tag=Class4,limit=1]","color":"light_purple"}]

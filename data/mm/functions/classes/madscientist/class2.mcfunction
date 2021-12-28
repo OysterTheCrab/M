@@ -1,0 +1,2 @@
+tag @s add Class2
+tellraw @a[tag=Class2] ["",{"text":"You are the "},{"text":"Mad Scientist","color":"#8E480F"},{"text":" to win you need to catch the killer, or infect all players.\n"},{"text":"click here","underlined":true,"clickEvent":{"action":"run_command","value":"/function mm:classes/madscientist/kitget"}},{"text":" to get your kit"}]

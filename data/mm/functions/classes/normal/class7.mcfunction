@@ -1,0 +1,2 @@
+tag @s add Class7
+tellraw @a[tag=Class7] ["",{"text":"You have "},{"text":"no role","color":"gray"},{"text":" you need to help catch the killer to win.\n"},{"text":"click here","underlined":true,"clickEvent":{"action":"run_command","value":"/function mm:classes/normal/kitget"}},{"text":" to get your kit"}]
