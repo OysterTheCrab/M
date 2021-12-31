@@ -1,6 +1,8 @@
 {
     "values": [
     "mm:tick",
-    "mm:roomselect/roomselect"
-    ]  
+    "mm:roomselect/roomselect",
+    "mm:outofbounds",
+    "mm:classes/murderer/kill"
+    ]
 }

@@ -1,0 +1,2 @@
+execute as @a[gamemode=spectator] unless entity @s[x=3727,y=107,z=6721,dx=63,dy=-107,dz=-80] run tp @s 3758.5 40 6721
+execute as @a[gamemode=spectator] unless entity @s[x=3727,y=107,z=6721,dx=63,dy=-107,dz=-80] run tellraw @s {"text":"Out of bounds!","bold":true,"color":"dark_red"}
