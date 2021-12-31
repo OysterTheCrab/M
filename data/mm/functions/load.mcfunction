@@ -15,3 +15,6 @@ tellraw @a ["",{"text":"For help or command type \""},{"text":"/function mm:help
 
 
 #tellraw @a ["",{"text":"Game"},{"text":" reset","bold":true,"color":"dark_red"},{"text":"!"}]
+
+scoreboard objectives add kill playerKillCount
+scoreboard objectives add killed dummy

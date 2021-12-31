@@ -1,0 +1,1 @@
+execute if score @a[tag=Class0,limit=1] kill matches 1 run function mm:classes/murderer/killcomplete
